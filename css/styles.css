@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #696969;
+    border: none;
+}
+
+body{
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    width: 100%; 
+    background-position: center;
+}
+
+
+textarea:focus, input:focus{
+outline: none;
+}
+
+a, label{
+ font-size: 1.5 rem;
+}
+
+a:hover {
+  color:rgb(32, 114, 114);
+}
+
+#login-container {
+    background-color:white;
+    width: 440px;
+    margin-left: center;
+    margin-right: right;
+    padding: 66px 90px;
+    margin-top: auto;   
+    text-align: center;
+}
+
+form {
+    margin-top : 30px;
+    margin-bottom : 40px;
+}
+
+label, input {
+    display : block;
+    width: 100%;
+    text-align: left;
+}
+
+label { 
+    font-weight: bold;
+}
+
+input {
+    border-bottom: 2px solid #323232;
+    padding: 10px;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid rgb(32, 114, 114);
+}
+
+#forgot_pass {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: rgb(32, 114, 114);
+    cursor: pointer;
+} 
+    
+input[type="submit"]:hover {
+    background-color: rgb(19, 68, 68);
+    transition: .4s;
+}
+
+.desing{
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    width: 540px;
+    height: 640px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
